@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(189, 204, 231);
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(88, 120, 171);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;   
+}
+#nav1 h3{
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav1 i{
+    font-size: 18px;
+    /* border: 2px solid black; */
+    padding: 5px 10px;
+    /* border-radius: 50px; */
+}
+#nav2 h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#btn1{
+    font-size: 15px;
+    background-color: white(194, 6, 6);
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav3 #btn2 {
+    color: white;
+    font-weight: 500;
+    background: rgb(112, 118, 227);
+    border: none;
+}
+
+h1{
+    color: rgb(35, 45, 78);
+    font-size: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    text-transform: uppercase;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img4 {
+    transform: translate(-50%, -50%);
+    rotate: 0deg;
+}
+#botom-left{
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+    font-size: 13px;
+}
+
+#instagram{
+    position: absolute;
+    bottom: 7%;
+    right: 9%;
+    font-size: 18px;
+}
+#youtube{
+    position: absolute;
+    bottom: 7%;
+    right: 6%;
+    font-size: 18px;
+}
+#threads{
+    size: 5px;
+    position: absolute;
+    bottom: 7%;
+    right: 3%;
+    font-size: 18px;
+}
+#botom-right{
+    position: absolute;
+    right: 2%;
+    bottom: 4.5%;
+    font-size: 13px;
+}
